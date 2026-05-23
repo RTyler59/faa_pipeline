@@ -1,0 +1,36 @@
+# --- Secrets & environment ---
+.env
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Generated data (regenerate by running the pipeline) ---
+data/operators.csv
+data/faa_raw_dump.txt
+
+# --- Debug screenshots ---
+data/debug/
+*.png
+
+# --- Abandoned VizQL/network API response dumps ---
+*.json
+
+# --- Playwright ---
+playwright-state/
+test-results/
